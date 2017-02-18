@@ -1,0 +1,145 @@
+/*公共栏*/
+
+/*分页顶部通栏*/
+.main-wrap{
+    width: 98%;
+}
+.com-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+}
+.com-header .header-box{
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #FF8200;
+}
+.com-header img{
+    width: 70%;
+}
+.com-header a{
+    display: inline-block;
+    margin:0.1rem 0.4rem 0 0;
+}
+.com-header a img{
+    width: 2.5rem;
+}
+.contaiter{
+    padding: 5px 5px;
+    margin-top:3rem;
+    background-color: #fff;
+}
+
+
+/*最新爆料 start*/
+.shop-list{
+    background-color: #fff;
+}
+.shop-list div:first-child {
+    border-bottom: 1px solid #ccc;
+    padding-bottom:1rem;
+    padding: 0.7rem 1rem;
+}
+.shop-list div h3{
+    color:#00BB9C;
+    font-size: 1.1rem;
+}
+.shop-list div a{
+    display: inline-block;
+}
+.shop-list-info{
+    width: 100%;
+}
+.shop-list-info .shop-list-alone{
+    border-bottom: 1px solid #ccc;
+    padding: 1rem 1rem;
+    color: #666;
+}
+.shop-list .shop-list-info a{
+    width: 25%;
+}
+.shop-list .shop-list-info div{
+    width: 75%;
+}
+.shop-list .shop-list-info a img{
+    width: 85%;
+}
+.shop-list-info .list-info-r p{
+    font-size: 0.8rem;
+    margin: 0.7rem 0;
+}
+.shop-list-info .list-info-r .price li{
+    font-size: 0.8rem;
+}
+.shop-list-info ul .more-product {
+    text-align: center;
+    line-height: 250%;
+}
+/*最新爆料 end*/
+
+/*页脚登陆 start*/
+
+.foot-landing-info{
+    width: 100%;
+    background-color: #fff;
+}
+.foot-landing-info{
+    margin: 0.5rem 0;
+}
+.foot-landing-info li{
+    float: left;
+    width: 33.33%;
+    line-height: 250%;
+    text-align: center;
+}
+.foot-landing-info li a{
+    display: inline-block;
+}
+/*页脚登陆 end*/
+
+
+/*页脚 客服端切换 start*/
+.page-change{
+    width: 100%;
+    background-color: #fff;
+}
+.page-change li{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+.page-change .change-client a{
+    background:url("../images/178hui-app.png")no-repeat;
+    padding-top: 3rem;
+    display: inline-block;
+    background-size: 2.5rem 2.5rem;
+}
+.page-change .change-touch a{
+    background:url("../images/178hui-shouji.png")no-repeat;
+    padding-top: 3rem;
+    display: inline-block;
+    background-size: 2.5rem 2.5rem;
+}
+.page-change .change-pc a{
+    background:url("../images/178hui-diannao.png")no-repeat;
+    padding-top: 3rem;
+    display: inline-block;
+    background-size: 2.5rem 2.5rem;
+}
+.foot-copy{
+    font-size: 80%;
+    text-align: center;
+    line-height: 3rem;
+    color: #999;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+/*页脚 客服端切换 End*/
+

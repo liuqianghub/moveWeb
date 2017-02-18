@@ -1,0 +1,889 @@
+/*顶部通栏*/
+.main-wrap {
+    width: 98%;
+    margin: 0 auto;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+.header .header-box {
+    width: 100%;
+    max-width: 640px;   
+    min-width: 320px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #FF8200;
+}
+
+.header img {
+    width: 70%;
+}
+
+.header a {
+    display: inline-block;
+    margin: 0.1rem 1.5rem 0 0;
+}
+
+.header a img {
+    width: 2rem;
+}
+
+/*轮播图*/
+.contaiter-wrap {
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.banner {
+    position: relative;
+    width: 500%;
+    left: -100%;
+}
+
+.banner img {
+    float: left;
+    width: 20%;
+}
+
+.contaiter-wrap .banner-round {
+    position: absolute;
+    left: 50%;
+    bottom:5%;
+    margin-bottom: 0.5rem;
+    transform: translateX(-50%);
+}
+
+.contaiter-wrap .banner-round li {
+    float: left;
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 0.8rem;
+    background-color: #3c3c3c;
+    display: inline-block;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+.contaiter-wrap a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: rgba(0,0,0,.3);
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-size: 35px;
+    display: none;
+}
+.contaiter-wrap a:hover{
+    background-color: rgba(0,0,0,.6);
+}
+.contaiter-wrap .prev{
+    position: absolute;
+    left: 15px;
+    top: 38%;
+}
+.contaiter-wrap .next{
+    position: absolute;
+    right: 15px;
+    top: 38%;
+}
+/*商品图标*/
+.shop-stort {
+    width: 100%;
+    margin: 5px 5px;
+}
+
+.shop-stort ul .shop-icon {
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin: 1rem 0 1rem 0;
+}
+
+.shop-stort .shop-icon a img {
+    width: 50%;
+    height: 50%;
+}
+
+.shop-stort .shop-icon p {
+    margin-top: 0.5rem;
+    color: #666;
+}
+
+/*热门商城 start*/
+.shop-hot {
+    margin: 10px 0;
+    background-color: #fff;
+    line-height: 300%;
+}
+
+.shop-hot div {
+    border-bottom: 1px solid #ccc;
+    padding: 0 1rem;
+}
+
+.shop-hot h3 {
+    color: #00BB9C;
+    font-size: 1.1rem;
+}
+
+.shop-hot .shop-brand {
+    width: 100%;
+    margin-top: 1.2rem;
+    padding: 0 0.7rem;
+}
+
+.shop-hot .shop-brand li {
+    float: left;
+    width: 25%;
+}
+
+.shop-hot .shop-brand li a img {
+    width: 80%;
+    height: 80%;
+}
+
+.shop-hot .shop-brand p span {
+    color: red;
+}
+
+/*最新爆料*/
+.shop-list {
+    background-color: #fff;
+}
+
+.shop-list div:first-child {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+    padding: 0.7rem 1rem;
+}
+
+.shop-list div h3 {
+    color: #00BB9C;
+    font-size: 1.1rem;
+}
+
+.shop-list div a {
+    display: inline-block;
+}
+
+.shop-list-info {
+    width: 100%;
+}
+
+.shop-list-info .shop-list-alone {
+    border-bottom: 1px solid #ccc;
+    padding: 1rem 1rem;
+    color: #666;
+}
+
+.shop-list .shop-list-info a {
+    width: 25%;
+}
+
+.shop-list .shop-list-info div {
+    width: 75%;
+}
+
+.shop-list .shop-list-info a img {
+    width: 85%;
+}
+
+.shop-list-info .list-info-r p {
+    font-size: 0.8rem;
+    margin: 0.7rem 0;
+}
+
+.shop-list-info .list-info-r .price li {
+    font-size: 0.8rem;
+}
+
+.shop-list-info ul .more-product {
+    text-align: center;
+    line-height: 250%;
+}
+
+/*我是完美的分割线 index end------------------------------------------------------------------*/
+
+/*mail 页面 start*/
+
+/*顶部通栏*/
+.com-header .header-box h2 {
+    width: 77%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 0.6rem;
+    color: white;
+}
+
+.indent .indent-info {
+    border-bottom: 2px solid #ccc;
+    box-shadow: 0 4px 5px #ccc;
+    margin-bottom: 0.6rem;
+    background-color: #fff;
+}
+
+.com-header .indent .indent-info div {
+    border-bottom: 1px solid #ccc;
+}
+
+.mail-contaiter {
+    margin-top: 3rem;
+    background-color: #fff;
+}
+
+.mail-contaiter .indent-info div {
+    line-height: 250%;
+}
+
+.indent .indent-info div h2 {
+    font-size: 1.3rem;
+    color: #000;
+}
+
+.indent .indent-info p {
+    padding: 0.8rem 1rem;
+    line-height: 180%;
+    color: #666;
+}
+
+/*mail 页面 end*/
+
+/*我是完美的分割线 ---------------------------------------------------------------------*/
+
+/*mall start*/
+.mall-contaiter {
+    margin-top: 3rem;
+    background-color: #f5f5f5;
+}
+
+.mall-contaiter .indent-info div {
+    line-height: 250%;
+}
+
+.mall-contaiter .shop-hot .shop-brand li {
+    float: left;
+    margin-left: 1.3rem;
+}
+
+.mall-contaiter .shop-hot .shop-brand {
+    width: 100%;
+    margin-top: 1.2rem;
+    padding: 0 1.5rem;
+}
+
+.mall-contaiter .shop-seek {
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: -0.7rem;
+    position: relative;
+}
+
+.mall-contaiter .shop-seek input {
+    width: 82%;
+    color: #ADADAD;
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    text-indent: 2.5rem;
+}
+
+.mall-contaiter .shop-seek span {
+    position: absolute;
+    top: 0.3rem;
+    left: 0.5rem;
+    background: url("../images/iconfont-sousuo.png") no-repeat;
+    background-size: 1.7rem 1.7rem;
+    width: 67px;
+    height: 67px;
+}
+
+.mall-contaiter .shop-seek button {
+    width: 4.5rem;
+    height: 2.3rem;
+    color: white;
+    background-color: #099;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/*mall End*/
+
+/*我是完美的分割线----------------------------------------------------------------------------------------*/
+
+/*baoliao start*/
+.bl-contaiter .bl-shop-list {
+    margin-top: 1rem;
+}
+
+.bl-contaiter .bl-shop-list .shop-list-top {
+    line-height: 250%;
+}
+
+.bl-contaiter .bl-shop-list .shop-list-top li {
+    text-align: center;
+    border-bottom: 1px solid #F6F6F6;
+}
+
+.bl-contaiter .bl-shop-list .shop-list-top li:hover {
+    border-bottom: 1px solid #099;
+}
+
+.bl-contaiter .bl-shop-list .shop-list-top li a {
+    display: inline-block;
+}
+
+/*baoliao End*/
+/*我是完美的分割线------------------------------------------------------------------------*/
+
+/*newList start*/
+.new-header .header-box {
+    text-align: center;
+    line-height: 230%;
+}
+
+.new-header .header-box a:last-child {
+    font-size: 0.8rem;
+    color: #fff;
+}
+.new-shop-list{
+    margin-top: 1rem;
+    background-color: #fff;
+}
+.new-shop-list .new-shop-list-top li {
+    padding: 1rem 0;
+    border-bottom: 1px dashed #ccc;
+}
+.new-shop-list .new-shop-list-top li a {
+    margin: 0 0.5rem;
+}
+.new-shop-list .new-shop-list-top li a:last-child {
+    border: 1px solid #ccc;
+    width: 2rem;
+    border-radius: 0.2rem;
+    background-color: darkorange;
+    color: white;
+}
+/*newList End*/
+
+/*我是完美的分割线-----------------------------------------------------------------------*/
+
+/*newsView strat*/
+.news-contaiter {
+    margin-top: 3rem;
+    background-color: #f5f5f5;
+}
+.news-contaiter .news-article{
+    padding: 1rem 1rem;
+    background-color: #fff;
+}
+.news-contaiter .news-article h1{
+    color: #1A99CC;
+    font-weight: 600;
+    text-align: center;
+}
+.news-contaiter .news-article .article-header{
+    margin: 1rem 0;
+    font-size: 0.7rem;
+    border-bottom: 1px dashed #ccc;
+}
+.news-contaiter .news-article .article-header span{
+    margin: 0 0.5rem;
+}
+.news-contaiter .news-article .article-header img{
+    width: 100%;
+    margin: 1rem 0;
+}
+.news-contaiter .news-article .article-header p{
+    margin: 1rem 0;
+    text-indent: 1rem;
+    color: #666;
+}
+.news-contaiter .news-article {
+    font-size: 0.8rem;
+}
+.news-contaiter .news-article .article-foot-label a{
+    text-decoration: underline;
+    margin: 0 0.2rem;
+    color: #1A99CC;
+}
+/*newsView End*/
+
+/*我是完美的分割线---------------------------------------------------------------------------------------*/
+
+/*register start*/
+.reg-contaiter {
+    margin-top: 3rem;
+    background-color: #f5f5f5;
+}
+.reg-contaiter .reg-form {
+    padding: 1.5rem 1rem;
+    background-color: #fff;
+}
+.com-header .reg-header-box{
+    background-color: #4EABE8;
+}
+.reg-contaiter .reg-form .reg-inp{
+    width: 100%;
+    line-height: 280%;
+    border: 1px solid #ccc;
+    border-radius: 0.2rem;
+    text-indent: 0.4rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+.reg-contaiter .reg-form input:hover{
+    border: 1px solid #1A99CC;
+}
+.reg-contaiter .reg-form .password-show button{
+    background: url("../images/u_s1.png")no-repeat;
+    background-size: 2rem 1.5rem;
+    width:2.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    right: 0.3rem;
+}
+.reg-contaiter .reg-form .password-show .btn-check{
+    background: url("../images/code.jpg")no-repeat;
+    background-size: 4rem 1.5rem;
+    width:4rem;
+    height: 1.5rem;
+    border-left: 1px solid #ccc;
+}
+.reg-contaiter .reg-form .password-show{
+  position: relative;
+    margin-bottom: 1.5rem;
+}
+.reg-contaiter .reg-form .password-show input{
+    margin-bottom: 0;
+}
+.reg-contaiter .reg-form .form-agree{
+    font-size: 0.8rem;
+    color: #666;
+}
+.reg-contaiter .reg-form .form-login1{
+    display: inline-block;
+    text-align: center;
+    color: white;
+    border: 1px solid #ccc;
+    background-color:#4EABE8;
+    width: 100%;
+    border-radius: 0.3rem;
+    font-size: 0.8rem;
+    line-height: 300%;
+    margin: 1rem 0;
+}
+.reg-contaiter .reg-form .form-login2{
+    display: inline-block;
+    text-align: center;
+    color: white;
+    border: 1px solid #ccc;
+    background-color:#DE3B8A;
+    width: 100%;
+    border-radius: 0.3rem;
+    font-size: 0.8rem;
+    line-height: 300%;
+}
+/*register End*/
+/*我是完美的分割线---------------------------------------------------------------------------*/
+
+/*register-ok start*/
+.regOk-contaiter {
+    margin-top: 3rem;
+    background-color: #f5f5f5;
+}
+.regOk-contaiter .logon-win {
+    padding: 1.5rem 1rem;
+    background-color: #fff;
+    text-align: center;
+    line-height: 300%;
+}
+.regOk-contaiter .logon-win img{
+    width: 20%;
+    margin: 0.5rem 0;
+}
+.regOk-contaiter .logon-win h1{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.regOk-contaiter .logon-win a{
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: #FD4442;
+    color: white;
+    padding: 0.5rem 0.5rem;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+/*register-ok END*/
+
+/*我是完美的分割线---------------------------------------------------------------------------------*/
+
+/*taobao start*/
+.tb-contaiter {
+    margin-top: 3rem;
+    background-color: #FFFAEA;
+    width: 100%;
+}
+.tb-contaiter .tb-logoing img{
+    width: 100%;
+}
+.tb-contaiter .tb-logoing .shop-seek form{
+    width: 100%;
+}
+.tb-contaiter .tb-logoing .shop-seek{
+    position: relative;
+}
+.tb-contaiter .tb-logoing {
+    width: 100%;
+    background-color: #fff;
+}
+.tb-contaiter .tb-logoing input {
+    width: 79%;
+    color: #ADADAD;
+    font-size: 1rem;
+    text-indent:2.4rem;
+    padding: 0.4rem 0;
+    position: relative;
+}
+
+.tb-contaiter .tb-logoing span {
+    position: absolute;
+    top: 0.3rem;
+    left: 0.5rem;
+    background: url("../images/iconfont-sousuo.png") no-repeat;
+    background-size: 1.7rem 1.7rem;
+    width: 67px;
+    height: 67px;
+}
+.tb-contaiter .tb-logoing button {
+    width: 5.25rem;
+    line-height: 2rem;
+    color: white;
+    background-color: #099;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 21%;
+}
+/*taobao end*/
+
+/*我是完美的分割线------------------------------------------------------------------------------------------*/
+/*baoliao-view start*/
+.blView-shop-list{
+    margin: 1rem 0;
+    background-color: #fff;
+}
+.blView-shop-list .blView-shop-info{
+    text-align: center;
+}
+.blView-shop-list .blView-shop-info img {
+    width: 30%;
+    margin-top: 1rem;
+}
+.blView-shop-list .blView-shop-info .shop-title span{
+    border: 1px solid #ccc;
+    color: white;
+    padding: 0.1rem 0.1rem;
+    border-radius: 0.2rem;
+}
+.blView-shop-list .blView-shop-info .shop-title{
+    min-font-size: 0.5rem;
+    text-align: left;
+    margin: 1rem 0;
+}
+.blView-shop-list .blView-shop-info li{
+    border-bottom: 1px solid #ccc;
+    line-height: 200%;
+}
+.blView-shop-list .blView-shop-info li:nth-child(2) p{
+    padding:0 0.5rem;
+}
+.blView-shop-list .blView-shop-info .shop-title1{
+    padding: 0.5rem 0.5rem;
+}
+.blView-shop-list .blView-shop-info .chaining{
+    display:inline-block;
+    width: 100%;
+    line-height: 300%;
+    color: white;
+    background-color: #00BB9C;
+    text-align: center;
+}
+/*产品详情*/
+.shop-details{
+    background-color: #fff;
+}
+.shop-details .shop-details-top{
+    padding: 0.5rem 0.5rem;
+    border-bottom: 1px solid #ccc;
+}
+.shop-details-center{
+    text-align: center;
+    padding: 0.5rem 0.5rem;
+}
+.shop-details-center p{
+    text-align: left;
+    line-height: 200%;
+}
+.shop-details-center .detsils-img1{
+    width: 40%;
+}
+.shop-details-center .detsils-img2{
+    width: 100%;
+}
+
+/*猜你还喜欢....*/
+.prefer-product{
+    background-color: #fff;
+    margin: 1rem 0;
+    padding: 0.5rem 0.5rem;
+}
+.prefer-product-title{
+    padding: 0.5rem 0.5rem;
+    border-bottom: 1px solid #ccc;
+}
+.prefer-product-info li{
+    line-height: 200%;
+    padding: 0.5rem 0.2rem;
+    border-bottom: 1px dashed #ccc;
+}
+.prefer-product-info li img{
+    width: 25%;
+}
+.blView-contaiter{
+    margin: -0.5rem 0 1.2rem 0;
+}
+.blView-contaiter .shop-seek button{
+    background-color: #7FC242;
+}
+.blView-contaiter .shop-seek span {
+    position: absolute;
+    top: 0.3rem;
+    left: 0.5rem;
+    background: url("../images/iconfont-pinglun.png") no-repeat;
+    background-size: 1.7rem 1.7rem;
+    width: 67px;
+    height: 67px;
+}
+.blView-comment{
+    background-color: #fff;
+}
+.blView-comment .blView-comment-header{
+    border-bottom: 1px solid #ccc;
+    padding: 0.5rem 0.5rem;
+}
+.blView-comment .blView-comment-info li{
+    padding: 0.5rem 0.5rem;
+}
+.blView-comment .blView-comment-info li img{
+    width: 10%;
+}
+.blView-comment .blView-comment-info .info-liS p{
+    border-bottom: 1px dashed #ccc;
+    line-height: 200%;
+    padding-bottom: 0.5rem;
+}
+/*baoliao-view ENd*/
+
+/*我是完美的分割线-------------------------------------------------------------*/
+
+/*newIndex  start*/
+.newIndex-shop-list  .shop-news .shop-news-hot{
+    border-bottom: 1px dashed #ccc;
+    padding: 0.5rem 0.5rem;
+    line-height: 170%;
+    color: #808080;
+}
+.shop-news .shop-news-hot img{
+    width: 18%;
+}
+.shop-news .shop-news-hot .new-hot-txt{
+    padding: 0 0.4rem;
+    margin-top: 1.1rem;
+}
+.shop-news .shop-news-hot .new-hot-txt a{
+    color: #0052CE;
+    font-size: 1.2rem;
+}
+.shop-news .shop-news-hot .new-hot-num{
+    display: inline-block;
+    padding: 0.1rem 0.5rem;
+    margin:1rem 0;
+    background-color:#F74C31;
+    color: white;
+}
+/*newIndex  End*/
+
+/*我是完美的分割线----------------------------------------------------------------*/
+
+/*login start*/
+.login-contaiter .login-checkbox{
+    padding: 0 0.5rem;
+}
+.login-contaiter .else-login{
+    padding: 0.8rem 0.5rem 0 0.5rem;
+    line-height: 200%;
+}
+.login-contaiter .else-login img{
+    width: 15%;
+}
+/*login end*/
+
+/*我是完美的分割线----------------------------------------------------------------------*/
+
+/*user strat*/
+.user-contaiter{
+    background-color: #f5f5f5;
+}
+.user-contaiter .user-photo{
+    background: url("../images/user_bg.jpg")no-repeat;
+    background-size:cover;
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin: 1rem 0;
+}
+.user-contaiter .user-photo a{
+    display: inline-block;
+    border-radius: 50% 50%;
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid #ccc;
+    background: url("../images/user_logo.jpg") no-repeat;
+    background-size:cover;
+    width: 15%;
+}
+.user-contaiter .user-wrap{
+    background-color: #fff;
+    border: 1px solid transparent;
+
+}
+.user-contaiter .user-info{
+    margin-top: 1rem ;
+    background-color: #fff;
+}
+.user-contaiter .user-info .user-info-alone{
+    border-bottom: 1px solid #ccc;
+    padding: 0.7rem 0.5rem;
+    line-height: 230%;
+}
+.user-contaiter .user-info .user-info-alone span:first-child{
+    font-weight: 600;
+}
+.user-contaiter .user-info .user-info-alone:nth-child(1) .user-spanL::before{
+    content: "";
+    background: url("../images/iconfont-jiaofei.png") no-repeat;
+    vertical-align: middle;
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-size: 2.5rem 2.5rem;
+    margin-right: 0.5rem;
+}
+.user-contaiter .user-info .user-info-alone .user-spanR::after{
+    content: "";
+    background: url("../images/iconfont-jiantou.png") no-repeat;
+    vertical-align: middle;
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-size: 1.5rem 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.user-contaiter .user-info .user-info-alone:nth-child(2) .user-spanL::before{
+    content: "";
+    background: url("../images/iconfont-hui.png") no-repeat;
+    vertical-align: middle;
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-size: 2.5rem 2.5rem;
+    margin-right: 0.5rem;
+}
+.user-contaiter .user-info .user-info-alone:nth-child(3) .user-spanL::before,
+.user-info .user-info-alone:nth-child(4) .user-spanL::before{
+    content: "";
+    background: url("../images/iconfont-wiappquxianguanli.png") no-repeat;
+    vertical-align: middle;
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-size: 2.5rem 2.5rem;
+    margin-right: 0.5rem;
+}
+.user-contaiter .user-info .user-info-alone:nth-child(5) .user-spanL::before{
+    content: "";
+    background: url("../images/111.png") no-repeat;
+    vertical-align: middle;
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-size: 2.5rem 2.5rem;
+    margin-right: 0.5rem;
+}
+.user-contaiter .user-info .user-info-alone:nth-child(6) .user-spanL::before{
+    content: "";
+    background: url("../images/iconfont-qiandaotubiao.png") no-repeat;
+    vertical-align: middle;
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-size: 2.5rem 2.5rem;
+    margin-right: 0.5rem;
+}
+
+.user-contaiter .user-info .user-info-alone:nth-child(7) .user-spanL::before{
+    content: "";
+    background: url("../images/iconfont-zhanneixin.png") no-repeat;
+    vertical-align: middle;
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-size: 2.5rem 2.5rem;
+    margin-right: 0.5rem;
+}
+.user-contaiter .user-info .user-info-alone:nth-child(8) .user-spanL::before{
+    content: "";
+    background: url("../images/iconfont-zhanghuanquan.png") no-repeat;
+    vertical-align: middle;
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-size: 2.5rem 2.5rem;
+    margin-right: 0.5rem;
+}
+.user-contaiter .secure-out{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background-color: #8C6A5E;
+    color: white;
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+    padding: 1rem 0;
+}
+.user-contaiter .secure-out span::before{
+    content: "";
+    background: url("../images/iconfont-tuichu.png") no-repeat;
+    vertical-align: middle;
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-size: 1.5rem 1.5rem;
+    margin-right: 0.5rem;
+}
+/*user end*/
+/*我是完美的分割线-------------------------------------------------------------*/
